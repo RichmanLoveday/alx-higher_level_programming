@@ -5,6 +5,5 @@ if __name__ == "__main__":
     total = 0
     for i in range(arguments):
         total += int(sys.argv[i + 1])
-
     print("{:d}".format(total))
     
